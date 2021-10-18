@@ -23,6 +23,7 @@ namespace MethodAssignment
             
             Console.WriteLine("=======");
             Console.WriteLine("");
+            Console.ReadKey();
         }
         static void TakeDamage()
         {
@@ -60,18 +61,21 @@ namespace MethodAssignment
             scoreMultiplier();
             
             ShowHUD();
+            
 
             TakeDamage();
             AddScore();
             scoreMultiplier();
 
             ShowHUD();
+            
 
             TakeDamage();
             AddScore();
             scoreMultiplier();
 
             ShowHUD();
+            
 
             TakeDamage();
             AddScore();
@@ -79,6 +83,7 @@ namespace MethodAssignment
            
             ShowHUD();
             KickedTheBucket();
+            
 
 
 
